@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Decodificador</title>
+        <link rel="stylesheet" href="./style/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Decodificador de Texto</h1>
+        </header>
+        <main class="main-container">
+            <div class="container-input">
+                <div class="input">
+                    <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+                    <span id="mensagem-aviso"><img src="./images/icon-atencao.svg" alt="">Apenas letras minúsculas e sem acento.</span>
+                </div>
+   
+                <div id="output">
+                    <img src="./images/img-buscarMensagem.svg" alt="">
+                    <h2>Sua mensagem aparecerá aqui!</h2>
+                    <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+                </div>
+            </div> 
+           
+            <div class="buttons">
+                <div class="container-bnt">
+                   <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                   <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                </div>
+               
+            </div>
+        </main>
+        <footer>
+            <h3>Desenvolvido por David Junior.</h3>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/david-junior99/" target="_blank"><img src="./images/linkedin.svg" alt="Logo Linkedin"></i></a>
+                <a href="https://github.com/DavidGSJR" target="_blank"><img src="./images/github.svg" alt="Logo Github"></i></a>   
+            </div>
+        </footer>
+
+        <script src="./assets/script.js" defer></script>
+    </body>
+</html>
