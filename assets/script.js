@@ -6,7 +6,7 @@ var btnDescriptografar = document.querySelector(".btn-descriptografar");
 
 function validarTexto(texto) {
   var textoSemAcento = texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  return /^[a-z]+$/.test(textoSemAcento);
+  return /^[a-z\s]+$/.test(textoSemAcento);
 }
 
 textInput.addEventListener("input", function(){
