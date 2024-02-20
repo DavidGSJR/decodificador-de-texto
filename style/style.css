@@ -170,15 +170,14 @@ footer h3 {
         
     }
     #input-texto{
-        width: 90%;
-        
+        width: 90%; 
     }
 
     #output{
         width: 90%;
         height: 400px;
         padding: 3% 0 5% 0;
-        margin-top: 10%;
+        margin-top: 30%;
     }
 
     #output img{
